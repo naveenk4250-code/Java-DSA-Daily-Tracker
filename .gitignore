@@ -1,0 +1,21 @@
+# IntelliJ IDEA
+.idea/
+
+# IntelliJ project file
+*.iml
+
+# Compiled output
+out/
+
+# Java compiled classes
+*.class
+
+# ZIP files
+*.zip
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
