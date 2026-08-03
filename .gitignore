@@ -1,21 +1,43 @@
+# ==========================
 # IntelliJ IDEA
+# ==========================
 .idea/
-
-# IntelliJ project file
 *.iml
 
-# Compiled output
+# ==========================
+# Build Output
+# ==========================
 out/
+target/
+build/
 
-# Java compiled classes
+# ==========================
+# Java Compiled Files
+# ==========================
 *.class
+*.jar
+*.war
+*.ear
 
-# ZIP files
+# ==========================
+# ZIP Archives
+# ==========================
 *.zip
 
+# ==========================
 # Logs
+# ==========================
 *.log
 
-# OS files
+# ==========================
+# Operating System Files
+# ==========================
 .DS_Store
 Thumbs.db
+desktop.ini
+
+# ==========================
+# Temporary Files
+# ==========================
+*.tmp
+*.temp
