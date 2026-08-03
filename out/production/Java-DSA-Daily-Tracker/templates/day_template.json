@@ -1,0 +1,36 @@
+{
+  "day": 2,
+  "date": "YYYY-MM-DD",
+  "problems": [
+    {
+      "title": "",
+      "topic": "",
+      "difficulty": "Easy | Medium | Hard",
+      "file": "Day02/Solution1_.java",
+      "score": 0,
+      "max_score": 10,
+      "verdict": "Accepted | Partially Accepted | Rejected",
+      "feedback": "Paste ChatGPT's analysis of this specific problem here."
+    },
+    {
+      "title": "",
+      "topic": "",
+      "difficulty": "",
+      "file": "Day02/Solution2_.java",
+      "score": 0,
+      "max_score": 10,
+      "verdict": "",
+      "feedback": ""
+    },
+    {
+      "title": "",
+      "topic": "",
+      "difficulty": "",
+      "file": "Day02/Solution3_.java",
+      "score": 0,
+      "max_score": 10,
+      "verdict": "",
+      "feedback": ""
+    }
+  ]
+}

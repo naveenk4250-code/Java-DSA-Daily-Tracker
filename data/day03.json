@@ -1,0 +1,36 @@
+{
+  "day": 3,
+  "date": "2026-08-03",
+  "problems": [
+    {
+      "title": "Count Number of Digits",
+      "topic": "Loops, Number Manipulation",
+      "difficulty": "Easy",
+      "file": "Day03/Solution1_NumberOfDigits.java",
+      "score": 10,
+      "max_score": 10,
+      "verdict": "Accepted",
+      "feedback": "Excellent solution. Correctly counted the number of digits by repeatedly dividing the number by 10 until it became zero. The implementation is simple, efficient, and follows the standard interview approach. Time Complexity: O(d), Space Complexity: O(1)."
+    },
+    {
+      "title": "Find the Largest Digit",
+      "topic": "Loops, Conditional Statements",
+      "difficulty": "Easy",
+      "file": "Day03/Solution2_LargestNumber.java",
+      "score": 7,
+      "max_score": 10,
+      "verdict": "Partially Accepted",
+      "feedback": "The overall approach is correct, but there is a logical error in the assignment statement. Inside the condition, 'dig = max' was used instead of 'max = dig', causing the maximum value to never update. Apart from this small mistake, the algorithm is appropriate and only requires correcting the assignment. Time Complexity: O(d), Space Complexity: O(1)."
+    },
+    {
+      "title": "Armstrong Number (3-Digit)",
+      "topic": "Loops, Mathematical Computation",
+      "difficulty": "Medium",
+      "file": "Day03/Solution3_ArmStrongNumber.java",
+      "score": 9,
+      "max_score": 10,
+      "verdict": "Accepted",
+      "feedback": "Good implementation. The program correctly stores the original number, extracts each digit, computes the cube using Math.pow(), and compares the final sum with the original number. A minor improvement is to use integer arithmetic (digit * digit * digit) instead of Math.pow() for better efficiency and to avoid floating-point operations. Additionally, the output message can be made more consistent with standard problem statements. Time Complexity: O(d), Space Complexity: O(1)."
+    }
+  ]
+}
