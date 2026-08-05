@@ -1,0 +1,36 @@
+{
+  "day": 5,
+  "date": "2026-08-05",
+  "problems": [
+    {
+      "title": "Count the Factors of a Number",
+      "topic": "Loops, Divisibility",
+      "difficulty": "Easy",
+      "file": "Day05/Solution1_FactorsCount.java",
+      "score": 10,
+      "max_score": 10,
+      "verdict": "Accepted",
+      "feedback": "Excellent solution. Correctly iterated from 1 to N and counted every divisor using the modulus (%) operator. The implementation is straightforward, easy to understand, and produces the correct result. For beginner-level problems, this is the expected approach. Time Complexity: O(n), Space Complexity: O(1)."
+    },
+    {
+      "title": "Greatest Common Divisor (GCD)",
+      "topic": "Loops, Mathematical Logic",
+      "difficulty": "Medium",
+      "file": "Day05/Solution2_GCD.java",
+      "score": 10,
+      "max_score": 10,
+      "verdict": "Accepted",
+      "feedback": "Very good implementation. Correctly determined the smaller of the two numbers and searched for the greatest common divisor by checking all possible divisors. Updating the GCD whenever a common divisor is found ensures the final answer is correct. A more efficient approach is the Euclidean Algorithm, which runs in O(log(min(a,b))), but your current solution is completely valid for learning and interviews. Current Time Complexity: O(min(a,b)), Space Complexity: O(1)."
+    },
+    {
+      "title": "Print Fibonacci Series",
+      "topic": "Loops, Sequence Generation",
+      "difficulty": "Medium",
+      "file": "Day05/Solution3_Fibonacci.java",
+      "score": 10,
+      "max_score": 10,
+      "verdict": "Accepted",
+      "feedback": "Excellent implementation. Correctly initialized the first two Fibonacci numbers and generated the sequence iteratively. The variables are updated in the proper order, producing the expected series for any valid input. The solution is clean, efficient, and follows the standard iterative interview approach. Time Complexity: O(n), Space Complexity: O(1)."
+    }
+  ]
+}
