@@ -1,0 +1,36 @@
+{
+  "day": 6,
+  "date": "2026-08-06",
+  "problems": [
+    {
+      "title": "Square Star Pattern",
+      "topic": "Nested Loops, Pattern Printing",
+      "difficulty": "Easy",
+      "file": "Day06/Solution1_StarPattern.java",
+      "score": 10,
+      "max_score": 10,
+      "verdict": "Accepted",
+      "feedback": "Excellent implementation. Correctly used nested loops where the outer loop controls the number of rows and the inner loop prints N stars in each row. The pattern is printed exactly as expected. The code is clean, readable, and follows the standard approach for beginner pattern problems. Time Complexity: O(n²), Space Complexity: O(1)."
+    },
+    {
+      "title": "Right-Angled Star Pattern",
+      "topic": "Nested Loops, Pattern Printing",
+      "difficulty": "Easy",
+      "file": "Day06/Solution2_RightAngleStarPattern.java",
+      "score": 10,
+      "max_score": 10,
+      "verdict": "Accepted",
+      "feedback": "Very good solution. Correctly increased the number of stars in each row by using the outer loop as the row controller and the inner loop to print stars equal to the current row number. The logic is simple, efficient, and follows the expected interview approach. Time Complexity: O(n²), Space Complexity: O(1)."
+    },
+    {
+      "title": "Floyd's Triangle",
+      "topic": "Nested Loops, Number Patterns",
+      "difficulty": "Medium",
+      "file": "Day06/Solution3_FloydsTriangle.java",
+      "score": 10,
+      "max_score": 10,
+      "verdict": "Accepted",
+      "feedback": "Excellent implementation. Maintained a running counter that increments after every printed value and correctly printed Floyd's Triangle using nested loops. The code is clean, easy to understand, and follows the standard interview solution. Variable naming is clear and the program produces the expected output for all valid inputs. Time Complexity: O(n²), Space Complexity: O(1)."
+    }
+  ]
+}
