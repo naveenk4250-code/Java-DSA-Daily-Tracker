@@ -1,0 +1,76 @@
+{
+  "day": 7,
+  "date": "2026-08-07",
+  "problems": [
+    {
+      "title": "Inverted Right Triangle",
+      "topic": "Nested Loops, Pattern Printing",
+      "difficulty": "Easy",
+      "file": "Day07/Solution1_InvertedRightTriangle.java",
+      "score": 10,
+      "max_score": 10,
+      "verdict": "Accepted",
+      "feedback": "Excellent implementation. Correctly used nested loops to print an inverted right-angled triangle. The outer loop controls the rows while the inner loop decreases the number of stars in each iteration. The logic is simple, clean, and follows the standard pattern-printing approach. Time Complexity: O(n²), Space Complexity: O(1)."
+    },
+    {
+      "title": "Number Triangle",
+      "topic": "Nested Loops, Number Patterns",
+      "difficulty": "Easy",
+      "file": "Day07/Solution2_NumberTriangle.java",
+      "score": 10,
+      "max_score": 10,
+      "verdict": "Accepted",
+      "feedback": "Very good solution. Correctly printed numbers from 1 to the current row using nested loops. The implementation is clean and easy to understand. Time Complexity: O(n²), Space Complexity: O(1)."
+    },
+    {
+      "title": "Sum of Factors",
+      "topic": "Loops, Divisibility",
+      "difficulty": "Medium",
+      "file": "Day07/Solution3_SumOfFactors.java",
+      "score": 10,
+      "max_score": 10,
+      "verdict": "Accepted",
+      "feedback": "Excellent implementation. Correctly identified all factors of the given number and accumulated their sum. The logic is correct and follows the expected beginner approach. Time Complexity: O(n), Space Complexity: O(1)."
+    },
+    {
+      "title": "Perfect Number",
+      "topic": "Loops, Mathematical Logic",
+      "difficulty": "Medium",
+      "file": "Day07/Solution4_PerfectNumber.java",
+      "score": 10,
+      "max_score": 10,
+      "verdict": "Accepted",
+      "feedback": "Good implementation. Correctly summed all proper divisors and compared the result with the original number to determine whether it is a Perfect Number. The algorithm is accurate and handles the required logic correctly. Time Complexity: O(n), Space Complexity: O(1)."
+    },
+    {
+      "title": "Count Vowels",
+      "topic": "Strings",
+      "difficulty": "Easy",
+      "file": "Day07/Solution5_CountVowels.java",
+      "score": 8,
+      "max_score": 10,
+      "verdict": "Partially Accepted",
+      "feedback": "The overall approach is correct, but there is an off-by-one error in the loop condition. The loop iterates until 'str.length() - 1', causing the last character of the string to be skipped. As a result, vowels appearing at the end of the string are not counted. Changing the loop condition to iterate until 'i < str.length()' fixes the issue. Additionally, consider checking uppercase vowels for a more complete solution. Time Complexity: O(n), Space Complexity: O(1)."
+    },
+    {
+      "title": "Reverse Each Word",
+      "topic": "Strings",
+      "difficulty": "Medium",
+      "file": "Day07/Solution6_ReverseEachWord.java",
+      "score": 9,
+      "max_score": 10,
+      "verdict": "Accepted",
+      "feedback": "Good solution. Correctly split the sentence into words and reversed each word individually while preserving the word order. One improvement is to read the sentence from user input instead of using a hardcoded string, making the program reusable for any input. Time Complexity: O(n), Space Complexity: O(n)."
+    },
+    {
+      "title": "Second Largest Element",
+      "topic": "Arrays",
+      "difficulty": "Medium",
+      "file": "Day07/Solution7_SecondLargest.java",
+      "score": 10,
+      "max_score": 10,
+      "verdict": "Accepted",
+      "feedback": "Excellent implementation. Correctly maintained the largest and second-largest distinct elements in a single traversal without sorting the array. The solution efficiently handles duplicate largest values and follows the optimal interview approach. Time Complexity: O(n), Space Complexity: O(1)."
+    }
+  ]
+}
