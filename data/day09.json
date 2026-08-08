@@ -1,0 +1,76 @@
+{
+  "day": 9,
+  "date": "2026-08-08",
+  "problems": [
+    {
+      "title": "Sum of Array Elements",
+      "topic": "Arrays, Traversal",
+      "difficulty": "Easy",
+      "file": "Day09/Solution1_ArraySum.java",
+      "score": 10,
+      "max_score": 10,
+      "verdict": "Accepted",
+      "feedback": "Clean and correct solution. Proper array input and summation logic. This is exactly what is expected in interviews. Time Complexity: O(n)."
+    },
+    {
+      "title": "Count Even and Odd Numbers",
+      "topic": "Arrays",
+      "difficulty": "Easy",
+      "file": "Day09/Solution2_CountEvenOdd.java",
+      "score": 10,
+      "max_score": 10,
+      "verdict": "Accepted",
+      "feedback": "Perfect implementation. Correct use of modulo and clear output formatting. No issues."
+    },
+    {
+      "title": "Palindrome String",
+      "topic": "Strings",
+      "difficulty": "Medium",
+      "file": "Day09/Solution3_PalindromeString.java",
+      "score": 8,
+      "max_score": 10,
+      "verdict": "Accepted",
+      "feedback": "Logic is correct, but inefficient due to string concatenation inside loop (O(n^2)). Also printing reversed string is unnecessary. In interviews, prefer StringBuilder. Minor deduction."
+    },
+    {
+      "title": "Second Smallest Element",
+      "topic": "Arrays",
+      "difficulty": "Medium",
+      "file": "Day09/Solution4_SecondSmallest.java",
+      "score": 10,
+      "max_score": 10,
+      "verdict": "Accepted",
+      "feedback": "Excellent. Optimal single-pass solution without sorting. Handles duplicates properly. Interview-level solution."
+    },
+    {
+      "title": "Count Words in Sentence",
+      "topic": "Strings",
+      "difficulty": "Easy",
+      "file": "Day09/Solution5_NoOfWords.java",
+      "score": 9,
+      "max_score": 10,
+      "verdict": "Accepted",
+      "feedback": "Good approach using split(). However, it may fail for multiple spaces or trailing spaces. Consider trimming input or using regex split. Minor improvement needed."
+    },
+    {
+      "title": "Frequency of Elements",
+      "topic": "Arrays, Frequency Count",
+      "difficulty": "Medium",
+      "file": "Day09/Solution6_FrequencyOfDigits.java",
+      "score": 7,
+      "max_score": 10,
+      "verdict": "Partially Accepted",
+      "feedback": "Works only when elements are between 0–9 due to fixed array size (10). Not a general solution. In interviews, you must use HashMap for arbitrary values. Concept is right but implementation is limited."
+    },
+    {
+      "title": "Remove Duplicates",
+      "topic": "Arrays, Hashing",
+      "difficulty": "Medium",
+      "file": "Day09/Solution7_RemoveDuplicates.java",
+      "score": 8,
+      "max_score": 10,
+      "verdict": "Accepted",
+      "feedback": "Good recovery from previous mistake. Correct use of HashSet to remove duplicates. However, input is hardcoded and order is not preserved (HashSet is unordered). For interviews, prefer LinkedHashSet or manual approach."
+    }
+  ]
+}
