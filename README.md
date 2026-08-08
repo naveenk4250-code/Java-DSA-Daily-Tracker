@@ -14,11 +14,11 @@ This repo is the log: every day's problems, my Java solutions, and the actual sc
 ## Stats
 
 <!-- STATS:START -->
-- **Days logged:** 7
-- **Total problems solved:** 23
-- **Fully accepted:** 21/23
-- **Average score:** 9.61/10
-- **Last updated:** 2026-08-07
+- **Days logged:** 8
+- **Total problems solved:** 28
+- **Fully accepted:** 26/28
+- **Average score:** 9.57/10
+- **Last updated:** 2026-08-09
 <!-- STATS:END -->
 
 ## Daily Log
@@ -33,6 +33,7 @@ This repo is the log: every day's problems, my Java solutions, and the actual sc
 | 5 | 2026-08-05 | 3 | 10.0/10 | [Day05/FEEDBACK.md](Day05/FEEDBACK.md) |
 | 6 | 2026-08-06 | 3 | 10.0/10 | [Day06/FEEDBACK.md](Day06/FEEDBACK.md) |
 | 7 | 2026-08-07 | 7 | 9.6/10 | [Day07/FEEDBACK.md](Day07/FEEDBACK.md) |
+| 8 | 2026-08-08 | 5 | 9.4/10 | [Day08/FEEDBACK.md](Day08/FEEDBACK.md) |
 <!-- TABLE:END -->
 
 ## Folder structure
