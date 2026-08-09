@@ -34,7 +34,7 @@ This repo is the log: every day's problems, my Java solutions, and the actual sc
 | 6 | 2026-08-06 | 3 | 10.0/10 | [Day06/FEEDBACK.md](Day06/FEEDBACK.md) |
 | 7 | 2026-08-07 | 7 | 9.6/10 | [Day07/FEEDBACK.md](Day07/FEEDBACK.md) |
 | 8 | 2026-08-08 | 5 | 9.4/10 | [Day08/FEEDBACK.md](Day08/FEEDBACK.md) |
-| 9 | 2026-08-08 | 7 | 8.9/10 | [Day09/FEEDBACK.md](Day09/FEEDBACK.md) |
+| 9 | 2026-08-09 | 7 | 8.9/10 | [Day09/FEEDBACK.md](Day09/FEEDBACK.md) |
 <!-- TABLE:END -->
 
 ## Folder structure
