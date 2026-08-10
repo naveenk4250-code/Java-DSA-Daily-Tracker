@@ -1,0 +1,76 @@
+{
+  "day": 10,
+  "date": "2026-08-09",
+  "problems": [
+    {
+      "title": "Average of Array",
+      "topic": "Arrays",
+      "difficulty": "Easy",
+      "file": "Day10/Solution1_AverageOfArray.java",
+      "score": 9,
+      "max_score": 10,
+      "verdict": "Accepted",
+      "feedback": "Correct implementation with proper traversal. However, integer division is used which may lead to loss of precision. In interviews, consider returning double for accurate average."
+    },
+    {
+      "title": "Count Positive, Negative and Zero",
+      "topic": "Arrays",
+      "difficulty": "Easy",
+      "file": "Day10/Solution2_CountPosNeg.java",
+      "score": 8,
+      "max_score": 10,
+      "verdict": "Accepted",
+      "feedback": "Logic is correct and clean. However, method design is poor as it returns a dummy value and handles printing internally. In interviews, separate logic and output, and return meaningful data."
+    },
+    {
+      "title": "Reverse String",
+      "topic": "Strings",
+      "difficulty": "Medium",
+      "file": "Day10/Solution3_ReverseString.java",
+      "score": 7,
+      "max_score": 10,
+      "verdict": "Accepted",
+      "feedback": "Functionally correct, but inefficient due to string concatenation inside loop leading to O(n^2) complexity. In interviews, use StringBuilder for optimal performance."
+    },
+    {
+      "title": "Move Zeros to End",
+      "topic": "Arrays, Two Pointers",
+      "difficulty": "Medium",
+      "file": "Day10/Solution4_ZerosToEnd.java",
+      "score": 10,
+      "max_score": 10,
+      "verdict": "Accepted",
+      "feedback": "Excellent implementation using two-pointer approach. Optimal O(n) solution and maintains relative order. This is a standard placement-level pattern."
+    },
+    {
+      "title": "Find Length of String Without length()",
+      "topic": "Strings",
+      "difficulty": "Easy",
+      "file": "Day10/Solution5_FindLength.java",
+      "score": 5,
+      "max_score": 10,
+      "verdict": "Partially Accepted",
+      "feedback": "Uses exception handling to control loop termination, which is a bad practice. Exceptions should not be used for normal logic. Interviewers expect a loop-based or traversal approach."
+    },
+    {
+      "title": "Check Equal Arrays",
+      "topic": "Arrays",
+      "difficulty": "Easy",
+      "file": "Day10/Solution6_EqualArray.java",
+      "score": 8,
+      "max_score": 10,
+      "verdict": "Accepted",
+      "feedback": "Correct comparison logic. However, missing edge case check for different array lengths. Always validate sizes before element comparison."
+    },
+    {
+      "title": "Missing Number",
+      "topic": "Arrays, Math",
+      "difficulty": "Medium",
+      "file": "Day10/Solution7_MissingNumber.java",
+      "score": 10,
+      "max_score": 10,
+      "verdict": "Accepted",
+      "feedback": "Correct and efficient implementation using sum formula. Optimal O(n). Good understanding of problem. Can be further optimized using XOR approach for interview depth."
+    }
+  ]
+}
