@@ -1,0 +1,56 @@
+{
+  "day": 11,
+  "date": "2026-08-11",
+  "problems": [
+    {
+      "title": "Maximum Difference",
+      "topic": "Arrays, Greedy Logic",
+      "difficulty": "Easy",
+      "file": "Day11/Solution1_MaxDifference.java",
+      "score": 10,
+      "max_score": 10,
+      "verdict": "Accepted",
+      "feedback": "Excellent solution. You correctly maintained the minimum element seen so far and calculated the maximum valid difference with a later element. The solution uses a single traversal without sorting. Time Complexity: O(n), Space Complexity: O(1)."
+    },
+    {
+      "title": "Armstrong Number",
+      "topic": "Numbers, Mathematical Logic",
+      "difficulty": "Easy",
+      "file": "Day11/Solution2_ArmStrongNumber.java",
+      "score": 8,
+      "max_score": 10,
+      "verdict": "Accepted",
+      "feedback": "The solution correctly checks the 3-digit Armstrong-number condition. The main improvements are to avoid Math.pow() when integer multiplication is sufficient and to avoid returning an unused value from the method. Time Complexity: O(d), Space Complexity: O(1)."
+    },
+    {
+      "title": "Rotate Array by One Position",
+      "topic": "Arrays, Reversal Technique",
+      "difficulty": "Medium",
+      "file": "Day11/Solution3_RotateArray.java",
+      "score": 10,
+      "max_score": 10,
+      "verdict": "Accepted",
+      "feedback": "Correct implementation. You correctly used the reversal technique: first reverse the entire array, then reverse the elements from index 1 to the end. For example, [1,2,3,4,5] becomes [5,1,2,3,4]. This is an in-place O(n) solution with O(1) extra space. Good improvement from the previous version."
+    },
+    {
+      "title": "Toggle Case of Characters",
+      "topic": "Strings, Character Manipulation",
+      "difficulty": "Easy",
+      "file": "Day11/Solution5_ToggleCase.java",
+      "score": 10,
+      "max_score": 10,
+      "verdict": "Accepted",
+      "feedback": "Excellent implementation. Correctly toggles lowercase and uppercase characters and uses StringBuilder for efficient string construction. Time Complexity: O(n), Space Complexity: O(n)."
+    },
+    {
+      "title": "First Non-Repeating Character",
+      "topic": "Strings, Frequency Counting",
+      "difficulty": "Medium",
+      "file": "Day11/Solution6_FirstNonRepeatingCh.java",
+      "score": 9,
+      "max_score": 10,
+      "verdict": "Accepted",
+      "feedback": "Good frequency-array approach with two traversals. It correctly preserves the original order while finding the first character whose frequency is one. The implementation assumes lowercase English letters and should explicitly handle the case where no non-repeating character exists. Time Complexity: O(n), Space Complexity: O(1) for lowercase English letters."
+    }
+  ]
+}

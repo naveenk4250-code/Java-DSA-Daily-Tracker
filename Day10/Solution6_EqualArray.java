@@ -4,6 +4,10 @@ import java.util.*;
 public class Solution6_EqualArray {
     public static void AreEqualArray(int n,int arr1[], int arr2[]){
         boolean Equal = true;
+
+        if(arr1.length!=arr2.length){
+            System.out.println("Not Equal!");
+        }
         for (int i = 0; i < n; i++) {
             if(arr1[i]!=arr2[i]){
                 Equal = false;
