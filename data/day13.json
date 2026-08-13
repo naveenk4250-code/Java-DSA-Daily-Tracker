@@ -1,0 +1,66 @@
+{
+  "day": 13,
+  "date": "2026-08-13",
+  "problems": [
+    {
+      "title": "Count Frequency of Each Element",
+      "topic": "Arrays, Hashing",
+      "difficulty": "Easy",
+      "file": "Day13/Solution1_FrequencyCount.java",
+      "score": 7,
+      "max_score": 10,
+      "verdict": "Partially Accepted",
+      "feedback": "The logic is correct, but the solution only works for values between 0 and 9 because of the fixed-size frequency array. This is not a generic solution. In placement interviews, HashMap is the expected approach because it can handle any integer. The concept is correct, but the implementation needs improvement."
+    },
+    {
+      "title": "Second Largest Element",
+      "topic": "Arrays",
+      "difficulty": "Easy-Medium",
+      "file": "Day13/Solution2_SecondLargest.java",
+      "score": 8,
+      "max_score": 10,
+      "verdict": "Accepted",
+      "feedback": "Good single-pass solution without sorting. However, initializing the largest and second-largest variables to 0 causes incorrect results when the array contains negative numbers. Using Integer.MIN_VALUE would make the solution more robust. The duplicate-handling logic is correct."
+    },
+    {
+      "title": "Remove Duplicate Characters",
+      "topic": "Strings, Hashing",
+      "difficulty": "Medium",
+      "file": "Day13/Solution3_RemoveDuplicatesString.java",
+      "score": 10,
+      "max_score": 10,
+      "verdict": "Accepted",
+      "feedback": "Excellent implementation. LinkedHashSet automatically removes duplicates while preserving insertion order. Converting the set back into a string using StringBuffer is efficient and demonstrates a good understanding of Java collections."
+    },
+    {
+      "title": "Maximum Consecutive Ones",
+      "topic": "Arrays",
+      "difficulty": "Medium",
+      "file": "Day13/Solution4_MaxConsecutiveOnes.java",
+      "score": 10,
+      "max_score": 10,
+      "verdict": "Accepted",
+      "feedback": "Perfect implementation. You correctly maintained a running count of consecutive 1s and reset it whenever a 0 appeared. The solution runs in O(n) time and uses O(1) extra space."
+    },
+    {
+      "title": "Valid Parentheses",
+      "topic": "Stack",
+      "difficulty": "Medium",
+      "file": "Day13/Solution5_Valid2.java",
+      "score": 7,
+      "max_score": 10,
+      "verdict": "Partially Accepted",
+      "feedback": "The stack-based approach is correct, but the code does not check whether the stack is empty before calling pop(). Inputs such as ')' or ']}', will cause an EmptyStackException. The algorithm is correct, but the edge cases need to be handled."
+    },
+    {
+      "title": "Majority Element",
+      "topic": "Arrays, Frequency Counting",
+      "difficulty": "Medium",
+      "file": "Day13/Solution7_MajorityElement.java",
+      "score": 7,
+      "max_score": 10,
+      "verdict": "Partially Accepted",
+      "feedback": "The counting logic is correct, but the solution only works for values between 0 and 9 because of the fixed-size frequency array. The problem also requires printing -1 when no majority element exists, which is currently missing. In interviews, Moore's Voting Algorithm is the preferred solution."
+    }
+  ]
+}
