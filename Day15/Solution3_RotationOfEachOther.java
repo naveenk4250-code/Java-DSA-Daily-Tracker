@@ -4,6 +4,12 @@ import java.util.*;
 public class Solution3_RotationOfEachOther {
 
     public void  ShiftCharacter(String str1,String str2){
+
+
+        if(str1.length()!=str2.length()){
+            System.out.println("Not a rotation of string");
+            return;
+        }
         String str3 = str1+str1;
         if(str1.length()!=str2.length()){
             System.out.println("Not Rotation of each other");
