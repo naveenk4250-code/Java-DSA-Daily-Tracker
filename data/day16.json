@@ -1,0 +1,56 @@
+{
+  "day": 16,
+  "date": "2026-08-18",
+  "problems": [
+    {
+      "title": "Rotate Array by K Positions",
+      "topic": "Arrays, Reversal Algorithm",
+      "difficulty": "Medium",
+      "file": "Day16/Solution1_RotateArrayByKPos.java",
+      "score": 10,
+      "max_score": 10,
+      "verdict": "Accepted",
+      "feedback": "Excellent solution. The program correctly implements the reversal algorithm to rotate the array by k positions. The value of k is normalized using the modulo operator, preventing unnecessary rotations when k is greater than the array size. The array is reversed entirely, followed by reversing the first k elements and the remaining elements. This is the standard interview approach because it performs the rotation in place without requiring an additional array. A minor improvement would be to move the printing logic outside the main algorithm. Time Complexity: O(n), Space Complexity: O(1)."
+    },
+    {
+      "title": "Find the Missing Number",
+      "topic": "Arrays, Mathematical Computation",
+      "difficulty": "Easy",
+      "file": "Day16/Solution2_MissingNumber.java",
+      "score": 10,
+      "max_score": 10,
+      "verdict": "Accepted",
+      "feedback": "Very good implementation. The solution correctly calculates the sum of the given array and compares it with the expected sum of the first n natural numbers using the mathematical formula n(n+1)/2. The difference between the two sums correctly identifies the missing number. The approach is efficient because it avoids sorting or using additional data structures. A minor improvement would be to use more descriptive variable names such as expectedSum instead of ActualSum. Time Complexity: O(n), Space Complexity: O(1)."
+    },
+    {
+      "title": "Kth Largest Element in an Array",
+      "topic": "Arrays, Sorting",
+      "difficulty": "Easy",
+      "file": "Day16/Solution3_KthLargestElement.java",
+      "score": 8,
+      "max_score": 10,
+      "verdict": "Accepted",
+      "feedback": "The implementation correctly sorts the array and retrieves the kth largest element by accessing the index n-k. The algorithm produces the correct output and is easy to understand. However, sorting the entire array is not the most efficient solution because only one element is required. In interviews, a Priority Queue or QuickSelect-based solution is usually preferred for better performance. Additionally, the method returns 0 instead of returning the identified element, which reduces the method's reusability. Time Complexity: O(n log n), Space Complexity: O(1), excluding the internal space used by the sorting algorithm."
+    },
+    {
+      "title": "Reverse the Order of Words in a String",
+      "topic": "Strings, Arrays",
+      "difficulty": "Easy",
+      "file": "Day16/Solution4_ReverseWords.java",
+      "score": 9,
+      "max_score": 10,
+      "verdict": "Accepted",
+      "feedback": "Good implementation. The program correctly separates the sentence into individual words using the split() method and prints them in reverse order. The solution is simple and produces the expected output. However, the method currently returns the original string instead of returning the reversed result. Constructing and returning a new string would improve reusability and make the method more consistent. Time Complexity: O(n), Space Complexity: O(n)."
+    },
+    {
+      "title": "Search in a Rotated Sorted Array",
+      "topic": "Arrays, Searching",
+      "difficulty": "Medium",
+      "file": "Day16/Solution5_SearchInRotatedArray.java",
+      "score": 6,
+      "max_score": 10,
+      "verdict": "Partially Accepted",
+      "feedback": "The solution correctly identifies whether the target element exists and prints its index. However, the implementation performs a linear search and does not take advantage of the properties of a rotated sorted array. The standard interview solution uses a modified binary search to achieve logarithmic performance. Because the problem specifically focuses on searching within a rotated sorted array, using a linear traversal does not fully satisfy the expected approach. Additionally, the method returns the target value instead of returning the element's index. Time Complexity: O(n), Space Complexity: O(1)."
+    }
+  ]
+}
